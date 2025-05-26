@@ -138,6 +138,10 @@ export default function Home() {
                   <span className="text-2xl">🧺</span>
                   <span>Washing Machine</span>
                 </li>
+                <li className="flex items-center gap-3">
+                  <span className="text-2xl">⬆️</span>
+                  <span>Elevator Access to All Floors</span>
+                </li>
 
               </ul>
             </div>
@@ -282,6 +286,71 @@ export default function Home() {
               <div className="inline-block px-3">
                 <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
                   <Image src="/Imag5.png" alt="Hostel Image 5" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag6.png" alt="Hostel Image 6" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag7.png" alt="Hostel Image 7" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag8.png" alt="Hostel Image 8" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag9.png" alt="Hostel Image 9" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag10.png" alt="Hostel Image 10" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag11.png" alt="Hostel Image 11" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag12.png" alt="Hostel Image 12" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag13.png" alt="Hostel Image 13" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag14.png" alt="Hostel Image 14" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag15.png" alt="Hostel Image 15" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag16.png" alt="Hostel Image 16" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag17.png" alt="Hostel Image 17" width={256} height={256} className="object-cover w-full h-full" />
+                </div>
+              </div>
+              <div className="inline-block px-3">
+                <div className="w-64 h-64 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                  <Image src="/Imag18.png" alt="Hostel Image 18" width={256} height={256} className="object-cover w-full h-full" />
                 </div>
               </div>
             </div>
