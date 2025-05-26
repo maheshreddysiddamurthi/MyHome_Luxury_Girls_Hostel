@@ -31,12 +31,10 @@ export default function Home() {
             </span>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-4">
-            <Link
-              href="tel:+919573766062"
-              className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all"
-            >
-              Contact Us
-            </Link>
+
+            <a href="tel:+919573766062" className="text-white text-4xl hover:opacity-80 transition-opacity">
+              📞
+            </a>
             <a href="tel:+919573766062" className="text-blue-500 hover:underline">
               +91 9573766062
             </a>
@@ -48,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-gray-50">
+      <section id="about" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">About Us</h2>
           <div className="max-w-3xl mx-auto text-center">
@@ -64,7 +62,7 @@ export default function Home() {
       </section>
 
       {/* Rooms & Facilities Section */}
-      <section id="facilities" className="py-20">
+      <section id="facilities" className="py-20 bg-green-200">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">Rooms & Facilities</h2>
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -258,7 +256,7 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-20 bg-gray-50">
+      <section id="gallery" className="py-20 bg-blue-200">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">Our Spaces</h2>
           <div className="flex overflow-x-auto space-x-6 p-4 hide-scroll-bar">
@@ -357,6 +355,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Contact Section */}
     </main>
   );
 }
