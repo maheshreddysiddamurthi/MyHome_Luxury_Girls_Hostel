@@ -61,7 +61,7 @@ export default function Home() {
       </section>
 
       {/* Rooms & Facilities Section */}
-      <section id="facilities" className="py-20 bg-green-200">
+      <section id="facilities" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">Rooms & Facilities</h2>
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -188,7 +188,7 @@ export default function Home() {
       </section> */}
 
       {/* Location Section */}
-      <section id="location" className="py-20">
+      <section id="location" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-12">Our Location</h2>
           <div className="max-w-6xl mx-auto">
@@ -255,9 +255,9 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-20 bg-blue-200">
+      <section id="gallery" className="py-20 bg-blue-300">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Our Spaces</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 decoration-black">Our Spaces</h2>
           <div className="flex overflow-x-auto space-x-6 p-4 hide-scroll-bar">
             <div className="flex flex-nowrap">
               <div className="inline-block px-3">
