@@ -50,10 +50,10 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-12">About Us</h2>
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-2xl font-semibold mb-6">Redefining Hostel Living</h3>
-            <p className="text-gray-600 mb-8">
+            <p className="mb-8">
               At My Home Luxury Girl&apos;s Hostel, we believe that a hostel should be more than just a place to stay—it should be a space where young women feel empowered, secure, and inspired. Our premium facilities, thoughtful interiors, and warm hospitality make us one of the most sought-after girls&apos; hostels in Hyderabad.
             </p>
-            <p className="text-gray-600">
+            <p>
               Our mission is simple: to create a lifestyle that supports your academic or professional journey while giving you a haven of peace and sophistication.
             </p>
           </div>
@@ -63,7 +63,7 @@ export default function Home() {
       {/* Rooms & Facilities Section */}
       <section id="facilities" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-gray-600 mb-12">Rooms & Facilities</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Rooms & Facilities</h2>
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
               <h3 className="text-2xl font-semibold mb-6">Room Features</h3>
@@ -190,13 +190,13 @@ export default function Home() {
       {/* Location Section */}
       <section id="location" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-gray-600 mb-12">Our Location</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Our Location</h2>
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <h3 className="text-2xl font-semibold mb-6">Find Us</h3>
                 <div className="space-y-4">
-                  <p className="text-gray-600">
+                  <p>
                     Located in the heart of Hyderabad, My Home Luxury Girl&apos;s Hostel is easily accessible from major landmarks and transportation hubs.
                   </p>
                   <div className="space-y-4">
@@ -204,21 +204,27 @@ export default function Home() {
                       <span className="text-2xl">📍</span>
                       <div>
                         <p className="font-semibold">Address</p>
-                        <p className="text-gray-600">17° 24&apos; 30.6176&quot; N, 78° 29&apos; 39.3194&quot; E, Hyderabad, Telangana</p>
+                        <p>
+                          17° 24&apos; 30.6176&quot; N, 78° 29&apos; 39.3194&quot; E, Hyderabad, Telangana
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <span className="text-2xl">🚇</span>
                       <div>
                         <p className="font-semibold">Nearest Metro Station</p>
-                        <p className="text-gray-600">RTC X Roads Metro - 5 mins walk</p>
+                        <p>
+                          RTC X Roads Metro - 5 mins walk
+                        </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <span className="text-2xl">🚌</span>
                       <div>
                         <p className="font-semibold">Bus Stop</p>
-                        <p className="text-gray-600">Ashok Nagar Bus Stop - 2 mins walk</p>
+                        <p>
+                          Ashok Nagar Bus Stop - 2 mins walk
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -255,9 +261,9 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section id="gallery" className="py-20 bg-grey-300">
+      <section id="gallery" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 decoration-black">Our Spaces</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Our Spaces</h2>
           <div className="flex overflow-x-auto space-x-6 p-4 hide-scroll-bar">
             <div className="flex flex-nowrap">
               <div className="inline-block px-3">
