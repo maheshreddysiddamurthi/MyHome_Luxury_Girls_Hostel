@@ -67,7 +67,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
               <h3 className="text-2xl font-semibold mb-6">Room Features</h3>
-              <ul className="space-y-4">
+              <ul className="space-y-4 text-black">
                 <li className="flex items-center gap-3">
                   <span className="text-2xl">🛏️</span>
                   <span>Spacious Rooms with Balconies</span>
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-6">Hostel Amenities</h3>
-              <ul className="space-y-4">
+              <ul className="space-y-4 text-black">
                 <li className="flex items-center gap-3">
                   <span className="text-2xl">🛋️</span>
                   <span>Each Floor Equipped with Sofa Sets & Sitting Areas</span>
@@ -263,7 +263,7 @@ export default function Home() {
       {/* Gallery Section */}
       <section id="gallery" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Our Spaces</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-black">Our Spaces</h2>
           <div className="flex overflow-x-auto space-x-6 p-4 hide-scroll-bar">
             <div className="flex flex-nowrap">
               <div className="inline-block px-3">
