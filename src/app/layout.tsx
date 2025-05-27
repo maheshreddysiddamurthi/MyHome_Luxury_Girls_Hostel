@@ -53,13 +53,8 @@ export default function RootLayout({
               <div className="hidden md:flex items-center space-x-8">
                 <a href="#about" className="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors">About</a>
                 <a href="#facilities" className="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors">Facilities</a>
-                {/* <a href="#safety" className="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors">Safety</a> */}
                 <a href="#location" className="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors">Location</a>
                 <a href="#gallery" className="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors">Gallery</a>
-                {/* <a href="#contact" className="text-gray-600 hover:text-purple-600 transition-colors">Contact</a> */}
-                {/* <a href="#contact" className="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700 transition-colors">
-                  Contact Us
-                </a> */}
               </div>
               <MobileMenu />
             </div>

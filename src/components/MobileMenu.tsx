@@ -55,13 +55,6 @@ export default function MobileMenu() {
                             Facilities
                         </a>
                         <a
-                            href="#safety"
-                            className="block px-4 py-2 text-gray-600 hover:text-purple-600 hover:bg-gray-50 rounded-md"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            Safety
-                        </a>
-                        <a
                             href="#location"
                             className="block px-4 py-2 text-gray-600 hover:text-purple-600 hover:bg-gray-50 rounded-md"
                             onClick={() => setIsOpen(false)}
@@ -74,20 +67,6 @@ export default function MobileMenu() {
                             onClick={() => setIsOpen(false)}
                         >
                             Gallery
-                        </a>
-                        <a
-                            href="#contact"
-                            className="block px-4 py-2 text-gray-600 hover:text-purple-600 hover:bg-gray-50 rounded-md"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            Contact
-                        </a>
-                        <a
-                            href="#contact"
-                            className="block px-4 py-2 text-center bg-purple-600 text-white rounded-md hover:bg-purple-700"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            Contact Us
                         </a>
                     </div>
                 </div>
