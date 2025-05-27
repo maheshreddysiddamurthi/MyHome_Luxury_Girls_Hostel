@@ -45,15 +45,15 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20">
+      <section id="about" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">About Us</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-black">About Us</h2>
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-semibold mb-6">Redefining Hostel Living</h3>
-            <p className="mb-8">
+            <h3 className="text-2xl font-semibold mb-6 text-black">Redefining Hostel Living</h3>
+            <p className="mb-8 text-black">
               At My Home Luxury Girl&apos;s Hostel, we believe that a hostel should be more than just a place to stay—it should be a space where young women feel empowered, secure, and inspired. Our premium facilities, thoughtful interiors, and warm hospitality make us one of the most sought-after girls&apos; hostels in Hyderabad.
             </p>
-            <p>
+            <p className="text-black">
               Our mission is simple: to create a lifestyle that supports your academic or professional journey while giving you a haven of peace and sophistication.
             </p>
           </div>
@@ -63,10 +63,10 @@ export default function Home() {
       {/* Rooms & Facilities Section */}
       <section id="facilities" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Rooms & Facilities</h2>
+          <h2 className="text-4xl font-bold text-black text-center mb-12">Rooms & Facilities</h2>
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Room Features</h3>
+              <h3 className="text-2xl font-semibold text-black mb-6">Room Features</h3>
               <ul className="space-y-4 text-black">
                 <li className="flex items-center gap-3">
                   <span className="text-2xl">🛏️</span>
@@ -96,7 +96,7 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="text-2xl font-semibold mb-6">Hostel Amenities</h3>
+              <h3 className="text-2xl text-black font-semibold mb-6">Hostel Amenities</h3>
               <ul className="space-y-4 text-black">
                 <li className="flex items-center gap-3">
                   <span className="text-2xl">🛋️</span>
@@ -190,21 +190,21 @@ export default function Home() {
       {/* Location Section */}
       <section id="location" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12">Our Location</h2>
+          <h2 className="text-4xl font-bold text-black text-center mb-12">Our Location</h2>
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-semibold mb-6">Find Us</h3>
-                <div className="space-y-4">
-                  <p>
+                <h3 className="text-2xl text-black font-semibold mb-6">Find Us</h3>
+                <div className="space-y-4 text-black">
+                  <p className="text-black">
                     Located in the heart of Hyderabad, My Home Luxury Girl&apos;s Hostel is easily accessible from major landmarks and transportation hubs.
                   </p>
-                  <div className="space-y-4">
+                  <div className="space-y-4 text-black">
                     <div className="flex items-start gap-3">
                       <span className="text-2xl">📍</span>
                       <div>
                         <p className="font-semibold">Address</p>
-                        <p>
+                        <p className="text-black">
                           17° 24&apos; 30.6176&quot; N, 78° 29&apos; 39.3194&quot; E, Hyderabad, Telangana
                         </p>
                       </div>
@@ -213,7 +213,7 @@ export default function Home() {
                       <span className="text-2xl">🚇</span>
                       <div>
                         <p className="font-semibold">Nearest Metro Station</p>
-                        <p>
+                        <p className="text-black">
                           RTC X Roads Metro - 5 mins walk
                         </p>
                       </div>
@@ -222,7 +222,7 @@ export default function Home() {
                       <span className="text-2xl">🚌</span>
                       <div>
                         <p className="font-semibold">Bus Stop</p>
-                        <p>
+                        <p className="text-black">
                           Ashok Nagar Bus Stop - 2 mins walk
                         </p>
                       </div>

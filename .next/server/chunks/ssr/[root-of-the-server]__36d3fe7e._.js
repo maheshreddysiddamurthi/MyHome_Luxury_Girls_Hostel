@@ -516,8 +516,27 @@ function RootLayout({ children }) {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        children: "📞 9573766062, 9066260409"
-                                                    }, void 0, false, {
+                                                        children: [
+                                                            "📞 ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "tel:+919573766062",
+                                                                children: "9573766062"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/layout.tsx",
+                                                                lineNumber: 99,
+                                                                columnNumber: 26
+                                                            }, this),
+                                                            ", ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "tel:+919066260409",
+                                                                children: "9066260409"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/layout.tsx",
+                                                                lineNumber: 99,
+                                                                columnNumber: 70
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/src/app/layout.tsx",
                                                         lineNumber: 99,
                                                         columnNumber: 19

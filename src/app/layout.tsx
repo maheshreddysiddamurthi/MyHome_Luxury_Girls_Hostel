@@ -96,7 +96,7 @@ export default function RootLayout({
                 <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
                 <ul className="space-y-2 text-gray-400">
                   <li>📍 H.No TRT 176, SHARADHA NILAYAM, Street N0 9, Near Varala Pochamma Temple, Ashok Nagar, HYD, 500020 </li>
-                  <li>📞 9573766062, 9066260409</li>
+                  <li>📞 <a href="tel:+919573766062">9573766062</a>, <a href="tel:+919066260409">9066260409</a></li>
                   <li>📧 [Email Address]</li>
                 </ul>
               </div>
